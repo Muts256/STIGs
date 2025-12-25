@@ -33,8 +33,9 @@ Each **STIG**:
 | [WN10-AU-000585](https://github.com/Muts256/STIGs/blob/main/WN10-AU-000585.ps1) | Requires auditing of failed process creation events to help identify malicious execution attempts. |
 | [WN10-CC-000230](https://github.com/Muts256/STIGs/blob/main/WN10-CC-000230.ps1) | Prevents users from bypassing Microsoft Defender SmartScreen warnings for malicious websites. |
 | [WN10-CC-000252](https://github.com/Muts256/STIGs/blob/main/WN10-CC-000252.ps1) | Disables Windows Game Recording and Broadcasting to reduce attack surface and data leakage. |
+| [WN10-CC-000325](https://github.com/Muts256/STIGs/blob/main/WN10-CC-000325.ps1) | Prevents Windows from automatically signing in the last interactive user after a system-initiated restart, ensuring re-authentication is required. |
 | [WN10-SO-000100](https://github.com/Muts256/STIGs/blob/main/WN10-SO-000100.ps1) | Enforces SMB client packet signing to protect network communications from tampering. |
 | [WN10-SO-000120](https://github.com/Muts256/STIGs/blob/main/WN10-SO-000120.ps1) | Requires the Windows SMB server to always digitally sign SMB communications. |
 | [WN10-SO-000250](https://github.com/Muts256/STIGs/blob/main/WN10-SO-000250.ps1) | Ensures administrators are prompted for consent on the secure desktop when elevating privileges. |
 | [WN10-SO-000255](https://github.com/Muts256/STIGs/blob/main/WN10-SO-000255.ps1) | Automatically denies elevation requests for standard users to prevent unauthorized privilege escalation. |
-| [WN10-CC-000325](https://github.com/Muts256/STIGs/blob/main/WN10-CC-000325.ps1) | Prevents Windows from automatically signing in the last interactive user after a system-initiated restart, ensuring re-authentication is required. |
+
