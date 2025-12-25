@@ -37,3 +37,4 @@ Each **STIG**:
 | [WN10-SO-000120](https://github.com/Muts256/STIGs/blob/main/WN10-SO-000120.ps1) | Requires the Windows SMB server to always digitally sign SMB communications. |
 | [WN10-SO-000250](https://github.com/Muts256/STIGs/blob/main/WN10-SO-000250.ps1) | Ensures administrators are prompted for consent on the secure desktop when elevating privileges. |
 | [WN10-SO-000255](https://github.com/Muts256/STIGs/blob/main/WN10-SO-000255.ps1) | Automatically denies elevation requests for standard users to prevent unauthorized privilege escalation. |
+| [WN10-CC-000325](https://github.com/Muts256/STIGs/blob/main/WN10-CC-000325.ps1) | Prevents Windows from automatically signing in the last interactive user after a system-initiated restart, ensuring re-authentication is required. |
