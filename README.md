@@ -38,4 +38,12 @@ Each **STIG**:
 | [WN10-SO-000120](https://github.com/Muts256/STIGs/blob/main/WN10-SO-000120.ps1) | Requires the Windows SMB server to always digitally sign SMB communications. |
 | [WN10-SO-000250](https://github.com/Muts256/STIGs/blob/main/WN10-SO-000250.ps1) | Ensures administrators are prompted for consent on the secure desktop when elevating privileges. |
 | [WN10-SO-000255](https://github.com/Muts256/STIGs/blob/main/WN10-SO-000255.ps1) | Automatically denies elevation requests for standard users to prevent unauthorized privilege escalation. |
+| [WN11-AC-000010](https://github.com/Muts256/STIGs/blob/main/WN11-AC-000010.ps1) | Limits the number of failed logon attempts to 3 or fewer to prevent brute-force attacks. |
+| [WN11-AU-000035](https://github.com/Muts256/STIGs/blob/main/WN11-AU-000035.ps1) | Logs failed attempts to create, modify, or delete user accounts, enabling detection of unauthorized or malicious account activity. |
+| [WN11-AU-000050](https://github.com/Muts256/STIGs/blob/main/WN11-AU-000050.ps1) | Logs successful and failed logon and logoff attempts to detect unauthorized access. |
+| [WN11-AU-000150](https://github.com/Muts256/STIGs/blob/main/WN11-AU-000150.ps1) | Logs successful loading of security system extensions (e.g., authentication packages, SSPs) to detect unauthorized or malicious security components. |
+| [WN11-AU-000560](https://github.com/Muts256/STIGs/blob/main/WN11-AU-000560.ps1) | Ensures auditing of non-standard logon events, capturing unusual authentication activity for monitoring and investigation. |
+| [WN11-CC-000206](https://github.com/Muts256/STIGs/blob/main/WN11-CC-000206.ps1) | Prevents Windows Update from downloading updates from unknown Internet PCs, ensuring updates come only from trusted sources or LAN peers. |
+| [WN11-CC-000285](https://github.com/Muts256/STIGs/blob/main/WN11-CC-000285.ps1) | Configures Remote Desktop Session Host to require secure RPC communication, preventing unencrypted or unauthenticated connections. |
+| [WN11-CC-000290](https://github.com/Muts256/STIGs/blob/main/WN11-CC-000290.ps1) | Enforces High Level encryption (128-bit) for RDP connections to protect against interception and session hijacking. |
 
